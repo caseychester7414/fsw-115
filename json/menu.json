@@ -1,0 +1,102 @@
+{
+        "menu":[{
+            "appetizers":[
+                {"name": "cookies",
+                
+                
+                "ingredients": ["oatmeal",
+                    "flour"],
+
+                "description": "not so good."
+
+                
+
+                },
+                {
+                "name": "chips",
+
+                "ingredients": ["salt","potatos"],
+
+                "description": "could be better."
+
+
+                },
+                {
+                    "name": "dount",
+
+                    "ingredients": ["powder","cream"],
+    
+                    "description": "delicious."
+
+                }
+            ],
+            "cold sandwitches":[
+                {
+                "name": "beef",
+
+                "ingredients": ["beef","cow"],
+
+                "description": "delicious."
+            },
+            {
+                "name": "turkey",
+
+                "ingredients": ["turkey"],
+
+                "description": "delicious."
+            }
+            ],
+            "hot sandwitches":[
+                {
+                "name": "beef",
+
+                "ingredients": ["beef","cow"],
+
+                "description": "delicious."
+            },
+            {
+                "name": "hot ham",
+
+                "ingredients": ["ham","salt","pepper"],
+
+                "description": "delicious."
+            }
+            ],
+            "desserts":[
+                {
+                "name": "brownies",
+
+                "ingredients": ["chocolate","chocolate chip"],
+
+                "description": "very delicious."
+            },
+            {
+                "name": "apple pie",
+
+                "ingredients": ["crust","apple","flour"],
+
+                "description": "delicious."
+            }
+            ],
+            "drinks":[
+                {
+                "name": "chocolate shake",
+
+                "ingredients": ["chocolate","cream"],
+
+                "description": "very  very delicious."
+            },
+            {
+                "name": "strawberry shake",
+
+                "ingredients": ["strawberrys","a mixer flour","cream"],
+
+                "description": "amazing"
+            }
+        ]
+            
+
+
+        
+        }]
+}
