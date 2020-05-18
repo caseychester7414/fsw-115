@@ -34,11 +34,11 @@ console.log(person)
 for (i = 0; i < Object.keys(person).length; i++){
     var heading1 = document.createElement("h1")
     document.body.append(heading1)
-    heading1.textContent = Object.keys(person)[i]+ ": "
+    heading1.textContent = Object.keys(person)[i]
 
     var heading2 = document.createElement("p")
     document.body.append(heading2)
-    heading2.innerHTML = Object.values(person)[i]+ "<br>"
+    heading2.innerHTML = "<Li>" + Object.values(person)[i]
 
     heading1.style.display = "inline"
     heading2.style.display = "inline"
