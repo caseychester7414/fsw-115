@@ -20,9 +20,17 @@ form.addEventListener("submit", (event) => {
 })
 function addListToDOM(taskedItem){
     let theListItem = createTaskElement(taskedItem)
-    
-    listUL.append(theListItem);
+    console.log(listUL)
+    console.log(listUL.children)
+    listUL.insertBefore(theListItem, listUL.childNodes[0]); 
+    // listUL.append(theListItem);
 }
+// axios.put("https://api.vschool.io/caseychester/todo", {
+    
+//   })
+//   .then(response => {
+      
+  
 function  createTaskElement(addToLists){
     let listItem = document.createElement("li")
     let theLabel = document.createElement("label")
@@ -45,6 +53,12 @@ function clickedTask(){
    
 this.classList.toggle("checked")
 }
+// console.log(response);
+// })
+
+//   .catch(error => {
+//     console.log(error);
+//   });
 
 document.getElementById("button3").addEventListener("click", ()=>{
     axios.get("https://rickandmortyapi.com/api/character/326")
